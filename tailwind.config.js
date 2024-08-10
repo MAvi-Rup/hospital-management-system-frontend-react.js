@@ -1,5 +1,3 @@
-
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -15,6 +13,17 @@ export default {
         'color-black': '#333',
         'color-para': '#e8e8e8',
       },
+      userSelect: {
+        none: 'none',
+        text: 'text',
+        all: 'all',
+        auto: 'auto',
+      },
+    },
+  },
+  variants: {
+    extend: {
+      userSelect: ['responsive'],
     },
   },
   plugins: [],
