@@ -71,10 +71,11 @@ const AboutUs = () => {
     <div className="max-w-6xl mx-auto mt-10 p-6">
       <h1 className="text-3xl font-bold text-center mb-6">Who we are?</h1>
       <p className="text-gray-600 text-center mb-12">
-        We started our journey back in 2016 with one goal in mind: to make
-        inter-city travel hassle-free and enjoyable. Fast forward to today,
-        we've become the largest online ticketing platform in the country. We
-        are constantly innovating to make your experience with us even better!
+        We embarked on our journey in 2024 with a clear vision: to revolutionize
+        hospital management and healthcare accessibility. Today, we're proud to
+        offer a comprehensive platform that streamlines healthcare services
+        across the country. Our commitment to innovation drives us to
+        continuously improve and provide you with an exceptional experience.
       </p>
 
       <h2 className="text-2xl font-bold mb-6">Leadership Team</h2>
