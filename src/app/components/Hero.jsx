@@ -28,7 +28,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block opacity-85">
             <img
               src="/hero.jpg"
               alt="Hospital Management"
