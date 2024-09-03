@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section
@@ -21,7 +22,12 @@ const Hero = () => {
             </p>
             <div className="flex space-x-4">
               <button className="bg-secondary hover:bg-green-600 text-color-white font-bold py-3 px-6 rounded-md transition-colors duration-300">
-                Sign Up
+                <Link
+                  to="/register"
+                  className="hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Signup
+                </Link>
               </button>
               <button className="bg-transparent border border-color-white hover:bg-color-white hover:text-primary font-bold py-3 px-6 rounded-md transition-colors duration-300">
                 Search Hospitals

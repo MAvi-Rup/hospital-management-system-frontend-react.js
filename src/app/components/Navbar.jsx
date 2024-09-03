@@ -25,6 +25,12 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
+                to="/about"
+                className="hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium"
+              >
+                About US
+              </Link>
+              <Link
                 to="/hospitals"
                 className="hover:bg-secondary px-3 py-2 rounded-md text-sm font-medium"
               >
@@ -89,6 +95,12 @@ const Navbar = () => {
               className="hover:bg-secondary block px-3 py-2 rounded-md text-base font-medium"
             >
               Home
+            </Link>
+            <Link
+              to="/about"
+              className="hover:bg-secondary block px-3 py-2 rounded-md text-base font-medium"
+            >
+              About US
             </Link>
             <Link
               to="/hospitals"
